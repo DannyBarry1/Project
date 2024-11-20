@@ -68,7 +68,7 @@
         .text-work {
             font-size: larger;
             font-family: 'Courier New', Courier, monospace;
-            margin-top: -0px;
+            margin-top: 20px;
         }
 
       
@@ -79,6 +79,10 @@
             height: 20px;
             padding: 5px;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        img:hover {
+            transform: rotate(-20deg) scale(1.1);
         }
 
 
@@ -115,15 +119,6 @@
             
         }
     </style>
-    <script>
-        function greet () {
-            let user = prompt('What is your name?')
-            alert ('You are welcome, ' + user )
-            alert('Kindly go through my "baby" website and tell me what you think. It is not finished yet though. Thank you')
-        }
-
-        greet();
-    </script>
 </head>
 <body>
 
@@ -135,6 +130,7 @@
             <a href="./Project.html">Project</a>
             <a href="./contact.html">Contact</a>
         </nav>
+
         <h1>Barry D</h1>
     </header>
 
@@ -151,16 +147,22 @@
     <h2>Selected Projects</h2>
     <div class="works">
         <div>
-            <img src="./7xm.xyz447483.jpg">
-            <p class="text-work"><b>Light Works</b></p>
+            <a href="./Lightworks.html" class="pregnant">
+                <img src="./Light Works.jpg">
+                <p class="text-work"><b>Light Works</b></p>
+            </a>
         </div>
         <div>
-            <img src="./aperture-vintage-SshYpuf607g-unsplash.jpg">
-            <p class="text-work"><b>Illuminence</b></p>
+            <a href="./Illuminence.html">
+                <img src="./Illuminence.jpg">
+                <p class="text-work"><b>Illuminence</b></p>
+            </a>
         </div>
         <div>
-            <img src="./—Pngtree—vibrant green wave abstract textured_15715229.jpg">
-            <p class="text-work"><b>Peace</b></p>
+            <a href="./Peace.html">
+                <img src="./Peace.jpg">
+                <p class="text-work"><b>Peace</b></p>
+            </a>
         </div>
     </div>
 
